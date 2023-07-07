@@ -19,11 +19,11 @@ const AddTask = ({ onAdd }) => {
   return (
     <form className="add-form" onSubmit={onSubmit}>
         <div className="form-control">
-            <label>Task</label>
+            <label>Task: </label>
             <input type='text' placeholder="Add Chord Progression" value={text} onChange={(e) => 
             setText(e.target.value)}></input>
         </div>
-        <div>
+        <div className='form-control'>
             <label>Link: </label>
             <input type='text' value={link} onChange={(e) => setLink(e.target.value)}></input>
         </div>
