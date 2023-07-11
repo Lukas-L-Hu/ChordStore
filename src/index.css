@@ -53,7 +53,9 @@ body {
 
 .btn-block {
   display: block;
-  width: 100%;
+  width: 50%;
+  position: relative;
+  right: 1000;
 }
 
 .task {
