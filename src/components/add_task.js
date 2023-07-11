@@ -25,7 +25,7 @@ const AddTask = ({ onAdd }) => {
         </div>
         <div className='form-control'>
             <label>Link: </label>
-            <input type='text' value={link} onChange={(e) => setLink(e.target.value)}></input>
+            <input type='text' placeholder="Add a link" value={link} onChange={(e) => setLink(e.target.value)}></input>
         </div>
         <input type='submit' value='Save Chord' className="btn btn-block"/>
     </form>
