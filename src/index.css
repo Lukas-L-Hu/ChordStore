@@ -55,7 +55,7 @@ body {
   display: block;
   width: 50%;
   position: relative;
-  right: 1000;
+  margin-left: 25%;
 }
 
 .task {
@@ -86,6 +86,7 @@ body {
 .form-control label {
   display: block;
   text-align: left;
+  margin-left: 30%;
 }
 
 .form-control input {
@@ -96,6 +97,7 @@ body {
   font-size: 17px;
   box-sizing: border-box;
   width: 500px;
+  margin-left: 30%;
 }
 
 .form-control-check {
