@@ -7,7 +7,7 @@ const AddTask = ({ onAdd }) => {
   const onSubmit = (e) => {
     e.preventDefault()
     if (!text) {
-        alert('Please return')
+        alert('You did not enter a chord progression or link')
         return
     }
     onAdd({ text, link })
